@@ -51,12 +51,13 @@ Blog:
 articles/                         //Method get, post
 article/<slug>/detail/            //Method get, put, patch, delete
 article/<slug>/comment/           //Method get, post
-comment/<slug>/detail/            //Method get, put, patch, delete
 article/<slug>/image/             //Method post
-image/<slug>/detail/              //Method get, put, patch, delete
+article/<slug>/like/              //Method post
 comment/<slug>/nested_comment/    //Method post
-nested_comment/<slug>/detail/     //Method get, put, patch, delete
 categories/                       //Method get, post
+image/<slug>/detail/              //Method get, put, patch, delete
+nested_comment/<slug>/detail/     //Method get, put, patch, delete
+comment/<slug>/detail/            //Method get, put, patch, delete
 ```
 
 ## Contributing
